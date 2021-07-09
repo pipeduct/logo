@@ -1,0 +1,125 @@
+<svg
+	height="1000"
+	width="1000"
+	>
+
+
+	<defs>
+
+		<g
+			id="letter-w"
+			>
+			<!-- Left external stroke -->
+			<path
+				d="
+					M 0 0
+					C 10 50, 50 150, 110 200
+				"
+				stroke="black"
+				/>
+
+			<!-- Left internal stroke -->
+			<path
+				d="
+					M 110 200
+					C 160 190, 170 40, 200 50
+				"
+				stroke="black"
+				/>
+
+			<!-- Right internal stroke -->
+			<path
+				d="
+					M 290 200
+					C 240 190, 230 40, 200 50
+				"
+				stroke="black"
+				/>
+
+			<!-- Right external stroke -->
+			<path
+				d="
+					M 400 0
+					C 390 50, 350 150, 290 200
+				"
+				stroke="black"
+				/>
+		</g>
+
+	</defs>
+
+
+	<g
+		transform="
+			translate(50,400)
+			scale(0.7,1)
+		"
+	>
+		<g
+			transform="
+				translate(20,70)
+			"
+		>
+			<use
+				x="0"
+				y="0"
+				xlink:href="#letter-w"
+				/>
+			<use
+				x="420"
+				y="0"
+				xlink:href="#letter-w"
+				/>
+			<use
+				x="840"
+				y="0"
+				xlink:href="#letter-w"
+				/>
+		</g>
+
+		<g
+			transform="
+				translate(0,0)
+			"
+		>
+			<line
+				x1="50"
+				y1="0"
+				x2="1195"
+				y2="0"
+				stroke="red"
+				stroke-width="10"
+				/>
+
+			<line
+				x1="1155"
+				y1="-30"
+				x2="1195"
+				y2="0"
+				stroke="red"
+				stroke-width="7"
+				/>
+
+			<line
+				x1="1155"
+				y1="30"
+				x2="1195"
+				y2="0"
+				stroke="red"
+				stroke-width="7"
+				/>
+		</g>
+	</g>
+
+
+	<circle
+		cx="500"
+		cy="500"
+		r="490"
+		fill="none"
+		stroke="blue"
+		stroke-width="6"
+		/>
+
+
+</svg>
